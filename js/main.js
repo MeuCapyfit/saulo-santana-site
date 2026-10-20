@@ -43,7 +43,7 @@
     },{threshold:.14,rootMargin:'0px 0px -40px 0px'});
     els.forEach(function(el){io.observe(el)});
     var fr=$('#aboutFrame');
-    if(fr){var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){fr.classList.add('in');io2.disconnect()}})},{threshold:.2});io2.observe(fr)}
+    if(fr){var io2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){fr.classList.add('in');io2.disconnect()}})},{threshold:.15});io2.observe(fr.parentNode)}
   }else{els.forEach(function(el){el.classList.add('in')});var f=$('#aboutFrame');if(f)f.classList.add('in')}
 
   /* ---------- manifesto: palavras acendem no scroll ---------- */
