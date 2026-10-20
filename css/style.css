@@ -241,9 +241,9 @@ em{font-style:normal;color:var(--or)}
 @media(min-width:980px){
   .hero__word--1{font-size:24vw;top:8%}
   .hero__word--2{font-size:17vw;top:34%}
-  .hero__photo{width:min(60vh,560px);left:68%}
+  .hero__photo{width:min(60vh,560px);left:73%}
   .hero__ui{padding-bottom:60px}
-  .hero__title{font-size:5.6rem;max-width:620px}
+  .hero__title{font-size:4.6rem;max-width:640px}
   .hero__row{justify-content:flex-start;gap:36px}
   .hero__fade{height:26%}
   .about__grid{grid-template-columns:.85fr 1.15fr;gap:80px}
